@@ -1,4 +1,4 @@
-def swap_values(x, y):
+def swap(x, y):
     # Check if both x and y are numeric
     if not (isinstance(x, (int, float)) and isinstance(y, (int, float))):
         return -1
@@ -13,5 +13,5 @@ def swap_values(x, y):
     print("Swapped y =", y)
 
 # Example usage
-print (swap_values("Apple", 10)) # -1
-print (swap_values(9, 17))  # Swapped x = 17, Swapped y = 9
+print (swap("Apple", 10)) # -1
+print (swap(9, 17))  # Swapped x = 17, Swapped y = 9
